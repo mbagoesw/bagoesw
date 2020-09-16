@@ -1,0 +1,31 @@
+algoritma untuk konversi detik
+
+
+1. User memasukkan input jam. Simpan input nilai tersebut ke dalam variabel "jam"
+
+2. User memasukkan input menit. Simpan input nilai tersebut ke dalam variabel "menit"
+
+3. Konversikan nilai variabel jam ke detik (dikali 3600)
+
+4. Konversikan nilai variabel menit ke detik (dikali 60)
+
+5. Jumlahkan variabel jam dan menit  yang telah dikonversi, lalu masukkan ke dalam variabel "hasil"
+
+6. Tampilkan output dari variabel hasil (Hasil konversi ke detik)
+
+
+Pseudocode
+
+program konversi_detik
+
+deklarasi
+var jam,menit,hasil:integer;
+
+print ("Masukkan nilai Jam: ")
+read (jam)
+print ("Masukkan nilai Menit: ")
+read (menit)
+jam <= jam * 3600
+menit <= menit * 60
+hasil <= jam + menit
+write(hasil)

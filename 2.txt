@@ -1,0 +1,17 @@
+Diketahui sebuah segitiga memiliki ukuran sebagai berikut;
+Alas 15
+Tinggi 10
+
+Algoritma hitung luas segitiga tersebut?
+Algoritma:
+Step 1 Mendeklarasikan luas, alas, dan tinggi
+Step 2 Masukan alas = 25, tinggi = 30
+Step 3 Menghitung luas = ½*alas*tinggi
+Step 4 Menampilkan luas
+Pseudocode:
+deklarasi
+var luas, alas, tinggi
+alas ← 15
+tinggi ← 10
+luas = 0.5*alas*tinggi
+write(luas)
